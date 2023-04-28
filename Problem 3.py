@@ -32,3 +32,8 @@ def write():
                     break
                 elif choices != "y":
                     print("Invalid input. Please enter 'y' or 'n'.")
+
+                    # do a while loop to ask the user repeatedly
+                while choices == "y":
+                    print("")
+                    line = input("Enter a line:")
