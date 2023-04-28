@@ -18,3 +18,6 @@ def write():
 
                 # to write a new line on the file
                 my_life.write(line + "\n")
+
+                # ask the user if they want to enter another line
+                choices = input("Do you want to enter another line? (y/n): ")
