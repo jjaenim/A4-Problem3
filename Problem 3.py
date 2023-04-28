@@ -43,3 +43,17 @@ def write():
 
                      # ask again the user if they want to continue
                     choices = input("Do you want to enter another line? (y/n):")
+
+                     # comments
+                    if choices == "n":
+                        comments = ["You're doing great", "Great job!", "That was great!", "Impressive!"]
+                        print(random.choice(comments))
+                        break
+                    elif choices != "y":
+                        print("Invalid input. Please enter 'y' or 'n'.")
+                
+    except OSError as e:
+        print(f"Error: {e}")
+        
+# call the function
+write()
