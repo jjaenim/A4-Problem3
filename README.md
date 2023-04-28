@@ -1,7 +1,7 @@
 # :wave: Hi, I am Joshua Adrian O. Daet :wave:
 I am a First Year Computer Engineering student of Polytechnic University of the Philippines.
 
-# :computer: Student Highest GWA Identifier :computer:
+# :computer: Multi Line Writer :computer:
 This Python software is a tool that let the user input their sentence inside a .txt file, and they can input may sentences as long as they want
 
 # :star: Features :star:
