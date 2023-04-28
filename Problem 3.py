@@ -37,3 +37,6 @@ def write():
                 while choices == "y":
                     print("")
                     line = input("Enter a line:")
+
+                    # to write a new line on the file
+                    my_life.write(line + "\n")
