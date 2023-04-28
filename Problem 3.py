@@ -10,7 +10,7 @@ def write():
         with open("C:/assignments_oop/A4-Problem3/mylife.txt", "w") as my_life:
             while True:
                  # put a variable to where the user will input their lines
-                line = input("Enter a line (press Enter to exit): ")
+                line = input("Enter a line (press Enter to exit):  ")
 
                 # exit the loop if the user presses Enter
                 if not line:
@@ -20,7 +20,7 @@ def write():
                 my_life.write(line + "\n")
 
                 # ask the user if they want to enter another line
-                choices = input("Do you want to enter another line? (y/n): ")
+                choices = input("Do you want to enter another line? (y/n):  ")
 
                 # make a comment
                 if choices == "n":
@@ -36,13 +36,13 @@ def write():
                     # do a while loop to ask the user repeatedly
                 while choices == "y":
                     print("")
-                    line = input("Enter a line:")
+                    line = input("Enter a line: ")
 
                     # to write a new line on the file
                     my_life.write(line + "\n")
 
                      # ask again the user if they want to continue
-                    choices = input("Do you want to enter another line? (y/n):")
+                    choices = input("Do you want to enter another line? (y/n): ")
 
                      # comments
                     if choices == "n":
