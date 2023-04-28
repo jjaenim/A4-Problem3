@@ -15,3 +15,6 @@ def write():
                 # exit the loop if the user presses Enter
                 if not line:
                     break
+
+                # to write a new line on the file
+                my_life.write(line + "\n")
