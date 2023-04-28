@@ -11,3 +11,7 @@ def write():
             while True:
                  # put a variable to where the user will input their lines
                 line = input("Enter a line (press Enter to exit): ")
+
+                # exit the loop if the user presses Enter
+                if not line:
+                    break
