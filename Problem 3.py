@@ -21,3 +21,14 @@ def write():
 
                 # ask the user if they want to enter another line
                 choices = input("Do you want to enter another line? (y/n): ")
+
+                # make a comment
+                if choices == "n":
+                    print("")
+                    comments = ["You're doing great", "Great job!", "That was great!", "Impressive!"]
+                    print(random.choice(comments))
+                    print("")
+                    print("Thank you for using")
+                    break
+                elif choices != "y":
+                    print("Invalid input. Please enter 'y' or 'n'.")
